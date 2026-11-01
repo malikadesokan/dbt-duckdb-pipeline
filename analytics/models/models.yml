@@ -10,6 +10,8 @@ models:
         description: The scraper's posting id;
       - name: job_title
         description: Posting title as scraped
+        data_tests:
+          - not_null
       - name: company_name
         description: Employer name as scraped
       - name: job_location
